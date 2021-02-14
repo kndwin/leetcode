@@ -9,4 +9,13 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Stack	solutions/20.valid-parentheses.go	/^type Stack struct {$/;"	s
+isEmpty	solutions/20.valid-parentheses.go	/^func (s *Stack) isEmpty() bool {$/;"	f	struct:Stack	typeref:typename:bool
+isValid	solutions/20.valid-parentheses.go	/^func isValid(s string) bool {$/;"	f	typeref:typename:bool
+items	solutions/20.valid-parentheses.go	/^	items []byte$/;"	m	struct:Stack	typeref:typename:[]byte
+last	solutions/20.valid-parentheses.go	/^func ( s *Stack ) last() byte {$/;"	f	struct:Stack	typeref:typename:byte
+len	solutions/20.valid-parentheses.go	/^func ( s *Stack ) len() int {$/;"	f	struct:Stack	typeref:typename:int
+longestCommonPrefix	solutions/14.longest-common-prefix.go	/^func longestCommonPrefix(strs []string) string {$/;"	f	typeref:typename:string
+pop	solutions/20.valid-parentheses.go	/^func (s *Stack) pop() byte {$/;"	f	struct:Stack	typeref:typename:byte
+push	solutions/20.valid-parentheses.go	/^func (s *Stack) push(b byte) {$/;"	f	struct:Stack
 removeDuplicates	solutions/26.remove-duplicates-from-sorted-array.go	/^func removeDuplicates(nums []int) int {$/;"	f	typeref:typename:int
