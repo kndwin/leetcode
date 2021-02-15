@@ -9,19 +9,35 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Constraints:	solutions/1.two-sum/README.md	/^## Constraints:$/;"	s	chapter:[1] Two Sum
 Constraints:	solutions/14.longest-common-prefix/README.md	/^## Constraints:$/;"	s	chapter:[14] Longest Common Prefix
+Constraints:	solutions/21.merge-two-sorted-lists/README.md	/^## Constraints:$/;"	s	chapter:[21] Merge Two Sorted Lists
+Example 1:	solutions/1.two-sum/README.md	/^## Example 1:$/;"	s	chapter:[1] Two Sum
 Example 1:	solutions/14.longest-common-prefix/README.md	/^## Example 1:$/;"	s	chapter:[14] Longest Common Prefix
+Example 1:	solutions/21.merge-two-sorted-lists/README.md	/^## Example 1:$/;"	s	chapter:[21] Merge Two Sorted Lists
+Example 2:	solutions/1.two-sum/README.md	/^## Example 2:$/;"	s	chapter:[1] Two Sum
 Example 2:	solutions/14.longest-common-prefix/README.md	/^## Example 2:$/;"	s	chapter:[14] Longest Common Prefix
-Stack	solutions/20.valid-parentheses.go	/^type Stack struct {$/;"	s
+Example 2:	solutions/21.merge-two-sorted-lists/README.md	/^## Example 2:$/;"	s	chapter:[21] Merge Two Sorted Lists
+Example 3:	solutions/1.two-sum/README.md	/^## Example 3:$/;"	s	chapter:[1] Two Sum
+Example 3:	solutions/21.merge-two-sorted-lists/README.md	/^## Example 3:$/;"	s	chapter:[21] Merge Two Sorted Lists
+Metadata	solutions/14.longest-common-prefix/README.md	/^## Metadata$/;"	s	chapter:[14] Longest Common Prefix
+Metadata	solutions/21.merge-two-sorted-lists/README.md	/^## Metadata$/;"	s	chapter:[21] Merge Two Sorted Lists
+Stack	solutions/20.valid-parentheses/20.valid-parentheses.go	/^type Stack struct {$/;"	s
+Test	solutions/1.two-sum/1.two-sum_test.go	/^func Test ( t *testing.T ) {$/;"	f	package:problem0001
 [14] Longest Common Prefix	solutions/14.longest-common-prefix/README.md	/^# [14] Longest Common Prefix$/;"	c
-isEmpty	solutions/20.valid-parentheses.go	/^func (s *Stack) isEmpty() bool {$/;"	f	struct:Stack	typeref:typename:bool
-isValid	solutions/20.valid-parentheses.go	/^func isValid(s string) bool {$/;"	f	typeref:typename:bool
-items	solutions/20.valid-parentheses.go	/^	items []byte$/;"	m	struct:Stack	typeref:typename:[]byte
-last	solutions/20.valid-parentheses.go	/^func ( s *Stack ) last() byte {$/;"	f	struct:Stack	typeref:typename:byte
-len	solutions/20.valid-parentheses.go	/^func ( s *Stack ) len() int {$/;"	f	struct:Stack	typeref:typename:int
+[1] Two Sum	solutions/1.two-sum/README.md	/^# [1] Two Sum$/;"	c
+[21] Merge Two Sorted Lists	solutions/21.merge-two-sorted-lists/README.md	/^# [21] Merge Two Sorted Lists$/;"	c
+isEmpty	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func (s *Stack) isEmpty() bool {$/;"	f	struct:Stack	typeref:typename:bool
+isValid	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func isValid(s string) bool {$/;"	f	typeref:typename:bool
+items	solutions/20.valid-parentheses/20.valid-parentheses.go	/^	items []byte$/;"	m	struct:Stack	typeref:typename:[]byte
+last	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func ( s *Stack ) last() byte {$/;"	f	struct:Stack	typeref:typename:byte
+len	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func ( s *Stack ) len() int {$/;"	f	struct:Stack	typeref:typename:int
 longestCommonPrefix	solutions/14.longest-common-prefix/14.longest-common-prefix.go	/^func longestCommonPrefix(strs []string) string {$/;"	f	typeref:typename:string
 longestCommonPrefix	solutions/14.longest-common-prefix/14.longest-common-prefix_text.go	/^func longestCommonPrefix(strs []string) string {$/;"	f	typeref:typename:string
-mergeTwoLists	solutions/21.merge-two-sorted-lists.go	/^func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {$/;"	f	typeref:typename:*ListNode
-pop	solutions/20.valid-parentheses.go	/^func (s *Stack) pop() byte {$/;"	f	struct:Stack	typeref:typename:byte
-push	solutions/20.valid-parentheses.go	/^func (s *Stack) push(b byte) {$/;"	f	struct:Stack
-removeDuplicates	solutions/26.remove-duplicates-from-sorted-array.go	/^func removeDuplicates(nums []int) int {$/;"	f	typeref:typename:int
+mergeTwoLists	solutions/21.merge-two-sorted-lists/21.merge-two-sorted-lists.go	/^func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {$/;"	f	typeref:typename:*ListNode
+pop	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func (s *Stack) pop() byte {$/;"	f	struct:Stack	typeref:typename:byte
+problem0001	solutions/1.two-sum/1.two-sum.go	/^package problem0001;$/;"	p
+problem0001	solutions/1.two-sum/1.two-sum_test.go	/^package problem0001; $/;"	p
+push	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func (s *Stack) push(b byte) {$/;"	f	struct:Stack
+removeDuplicates	solutions/26.remove-duplicates-from-sorted-array/26.remove-duplicates-from-sorted-array.go	/^func removeDuplicates(nums []int) int {$/;"	f	typeref:typename:int
+twoSum	solutions/1.two-sum/1.two-sum.go	/^func twoSum(nums []int, target int) []int {$/;"	f	package:problem0001	typeref:typename:[]int
