@@ -9,13 +9,19 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+Constraints:	solutions/14.longest-common-prefix/README.md	/^## Constraints:$/;"	s	chapter:[14] Longest Common Prefix
+Example 1:	solutions/14.longest-common-prefix/README.md	/^## Example 1:$/;"	s	chapter:[14] Longest Common Prefix
+Example 2:	solutions/14.longest-common-prefix/README.md	/^## Example 2:$/;"	s	chapter:[14] Longest Common Prefix
 Stack	solutions/20.valid-parentheses.go	/^type Stack struct {$/;"	s
+[14] Longest Common Prefix	solutions/14.longest-common-prefix/README.md	/^# [14] Longest Common Prefix$/;"	c
 isEmpty	solutions/20.valid-parentheses.go	/^func (s *Stack) isEmpty() bool {$/;"	f	struct:Stack	typeref:typename:bool
 isValid	solutions/20.valid-parentheses.go	/^func isValid(s string) bool {$/;"	f	typeref:typename:bool
 items	solutions/20.valid-parentheses.go	/^	items []byte$/;"	m	struct:Stack	typeref:typename:[]byte
 last	solutions/20.valid-parentheses.go	/^func ( s *Stack ) last() byte {$/;"	f	struct:Stack	typeref:typename:byte
 len	solutions/20.valid-parentheses.go	/^func ( s *Stack ) len() int {$/;"	f	struct:Stack	typeref:typename:int
-longestCommonPrefix	solutions/14.longest-common-prefix.go	/^func longestCommonPrefix(strs []string) string {$/;"	f	typeref:typename:string
+longestCommonPrefix	solutions/14.longest-common-prefix/14.longest-common-prefix.go	/^func longestCommonPrefix(strs []string) string {$/;"	f	typeref:typename:string
+longestCommonPrefix	solutions/14.longest-common-prefix/14.longest-common-prefix_text.go	/^func longestCommonPrefix(strs []string) string {$/;"	f	typeref:typename:string
+mergeTwoLists	solutions/21.merge-two-sorted-lists.go	/^func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {$/;"	f	typeref:typename:*ListNode
 pop	solutions/20.valid-parentheses.go	/^func (s *Stack) pop() byte {$/;"	f	struct:Stack	typeref:typename:byte
 push	solutions/20.valid-parentheses.go	/^func (s *Stack) push(b byte) {$/;"	f	struct:Stack
 removeDuplicates	solutions/26.remove-duplicates-from-sorted-array.go	/^func removeDuplicates(nums []int) int {$/;"	f	typeref:typename:int

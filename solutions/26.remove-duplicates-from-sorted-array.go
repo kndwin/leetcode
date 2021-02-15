@@ -81,26 +81,3 @@ func removeDuplicates(nums []int) int {
 
 	return id+1
 }
-
-/* Feeble attempt
-
-	// if there's no input array, return 0
-	if len(nums) == 0 {
-		return 0
-	}
-
-	// else start looping through array
-	var ans int = 1
-	var arr int = nums[0]
-
-	fmt.Println()
-
-	for i := 0; i < len(nums); i++ {
-		if arr < nums[i] && nums[i] != nums[i-1] {
-			arr = nums[i]
-			nums[ans] = arr;
-			ans++
-		}
-		fmt.Println( nums, arr, ans )
-	}
-*/
