@@ -40,4 +40,5 @@ problem0001	solutions/1.two-sum/1.two-sum.go	/^package problem0001;$/;"	p
 problem0001	solutions/1.two-sum/1.two-sum_test.go	/^package problem0001; $/;"	p
 push	solutions/20.valid-parentheses/20.valid-parentheses.go	/^func (s *Stack) push(b byte) {$/;"	f	struct:Stack
 removeDuplicates	solutions/26.remove-duplicates-from-sorted-array/26.remove-duplicates-from-sorted-array.go	/^func removeDuplicates(nums []int) int {$/;"	f	typeref:typename:int
+singleNumber	solutions/136.single-number/136.single-number.go	/^func singleNumber(nums []int) int {$/;"	f	typeref:typename:int
 twoSum	solutions/1.two-sum/1.two-sum.go	/^func twoSum(nums []int, target int) []int {$/;"	f	package:problem0001	typeref:typename:[]int
